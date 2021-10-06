@@ -1,0 +1,278 @@
+html, body, #root, .App, #home-page {
+  height: 100%;
+  margin: 0;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  padding: 5%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.skillIcon {
+  height: 50px;
+  width: 75px;
+  margin: auto;
+}
+
+#skills {
+  display: flex;
+  margin: auto;
+}
+
+.eachSkill1 {
+  margin: auto;
+  /* .margin-right: 5%; */
+}
+
+.eachSkill2 {
+  margin: auto;
+  /* margin-right: 4%; */
+}
+
+#skillSet1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skillSet2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+i {
+  font-size: 200%;
+}
+
+#NavBar-page {
+  display: flex;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.navBarLinks {
+  margin-right: 3%;
+  text-decoration: none;
+  color: #61dafb;
+  margin: auto;
+}
+
+.navBarLinks:hover {
+  color: white
+}
+
+#music {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.musicVideo {
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+#navBarName {
+  font-size: 200%;
+  text-decoration: none;
+  color: white;
+  /* margin-left: 9%; */
+  margin: auto;
+}
+
+#navBarName:hover {
+  color: #61dafb;
+
+}
+
+.projectPic {
+  width: 30%;
+}
+
+.Project {
+  padding-left: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.projectInfo {
+  padding-left: 2%;
+  width: 50%;
+  text-align: left;
+}
+
+#navBar {
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.projectTitle {
+  color: #61dafb; 
+}
+
+.projectGit {
+  color: #61dafb;
+  padding-right: 5%;
+}
+
+.projectAbout { 
+  font-size: 20px;
+}
+
+.projectDeployed {
+  color: #61dafb;
+}
+
+hr {
+  padding-left: 25%;
+  text-align: left;
+  width: 50%;
+}
+
+#home-page{
+  text-align: center;
+}
+
+.aboutPic {
+  height: 40vmin;
+}
+
+#About {
+  text-align: center;
+  /* padding: auto; */
+  height: 100%;
+}
+
+#stories, #curated {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.picAndBlurb, .payment {
+  display: inline-flex;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+#coverHome, #susan {
+  width: 35%;
+  height: 50%;
+}
+
+#purchasePic {
+  height: 30%;
+  width: 20%;
+}
+
+#soldOut {
+  margin-right: 20%;
+  padding-left: 5%;
+}
+
+#round2form {
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 35%;
+  margin-bottom: 1%;
+}
+
+button {
+  width: 36%;
+}
+
+#priceDescription {
+  margin-left: 15%;
+  margin-right: 20%;
+}
+
+.additionalDonation {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact {
+  width: 25%;
+  margin-left: 25%;
+}
+
+.test-mailing {
+  display: flex;
+  flex-direction: column;
+}
+
+#contactButton {
+  margin-left: 25%;
+  width: 26%;
+}
+
+.featuredInLinks:link {
+  color: white;
+}
+
+.featuredInLinks:hover {
+  color: #61dafb;
+}
+
+#thankyou {
+  color: #61dafb;
+}
+
+@media only screen and (max-width: 400px) {
+  .picAndBlurb, .payment {
+    display: block;
+    margin-left: 15%;
+    margin-right: 5%;
+  }
+
+  #purchasePic {
+    margin-left: 15%;
+    width: 50%;
+  }
+
+  #coverHome {
+    margin-right: 10%;
+    width: 50%;
+  }
+
+  #susan {
+    width: 50%;
+  }
+
+}
